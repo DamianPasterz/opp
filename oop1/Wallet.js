@@ -12,10 +12,10 @@ class Wallet {
         }
         this.changeWallet = (value, typ = "+") => {
             if (typeof value === "number" && !isNaN(value)) {
-                if (typeof === "+") {
+                if (type === "+") {
                     return _money += value;
 
-                } else if (typeof === "-") {
+                } else if (type === "-") {
                     return _money -= value;
                 } else {
                     throw new Error("nieprawidłowy typ działania")

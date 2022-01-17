@@ -7,9 +7,9 @@ class Draw {
     drawResult() {
         let color = [];
         // uzupełnianie po przez losowanie
-        for (let i = 0; i < this.options.length; i++)
-            const index = Math.floor(Math.random() * this.options.length)
-        const color = this.options[index]
+        for (let i = 0; i < this.options.length; i++);
+        const index = Math.floor(Math.random() * this.options.length)
+        color = this.options[index]
         console.log(color);
         color.push(color)
         return color
