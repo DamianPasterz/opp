@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right top, orange, red);
+}
+
+.addTask {
+    background: rgba(255, 255, 255 0.2);
+    width: 100px;
+    height: 100px;
+    border: solid 5px;
+    border-radius: 100%;
+    border-color: black;
+
+
+}
+
+button.addTask a {
+    text-decoration: none;
+}
+
+button.addTask a i {
+
+    font-size: 50px;
+}
+
+button.addTask:hover a i {
+    position: relative;
+    font-size: 100px;
+    top: -20;
+    right: -2;
+    bx-spin-hover;
+
+}
